@@ -1,0 +1,14 @@
+<%- include('partials/top.ejs') %>
+
+<%- include('partials/navbar.ejs') %>
+
+<%- include('partials/hero.ejs') %>
+<div class="d-flex justify-content-center gap-4 pt-5  flex-wrap ">
+    <% for(let i=1 ; i<=8 ; i++) { %>
+    <%- include('partials/card.ejs') %>
+    <% } %>
+</div>
+
+<%- include('partials/footer.ejs') %>
+
+<%- include('partials/bottom.ejs') %>
